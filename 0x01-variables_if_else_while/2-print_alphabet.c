@@ -6,7 +6,7 @@
  *
  * Return: Always 0 (Successfull)
  */
-int main (void)
+int main(void)
 {
 	int ch = 'a';
 
