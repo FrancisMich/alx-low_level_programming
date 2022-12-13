@@ -5,7 +5,7 @@
  *
  * @n: the argument
  *
- * Return: thelast digit
+ * Return: the last digit
  */
 
 int print_last_digit(int n)
