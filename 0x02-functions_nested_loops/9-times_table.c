@@ -2,8 +2,6 @@
 
 /**
  * times_table - prints 9 times table
- *
- * Return: Always number
  */
 
 void times_table(void)
