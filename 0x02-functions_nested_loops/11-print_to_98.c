@@ -7,7 +7,7 @@
  * @n: starting number
  */
 
-void int main(n)
+void print_to_98(int n)
 {
 	if (n >= 98)
 	{
