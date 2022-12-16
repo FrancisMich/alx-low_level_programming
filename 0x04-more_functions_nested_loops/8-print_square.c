@@ -3,7 +3,7 @@
 /**
  * print_square - print hashes squares
  * @size: size of the square
- * Return: 0
+ * Return: no return.
  */
 
 void print_square(int size)
@@ -17,7 +17,7 @@ void print_square(int size)
 			_putchar(35);
 		}
 		if (i != size - 1)
-		-putchar('\n');
+		_putchar('\n');
 	}
-	-putchar ('\n');
+	_putchar ('\n');
 }
