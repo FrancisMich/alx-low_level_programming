@@ -6,7 +6,7 @@
  *
  * @src: source
  *
- * @buffer: destination
+ * @dest: destination
  *
  * Return: thr pointer to dest
  */
