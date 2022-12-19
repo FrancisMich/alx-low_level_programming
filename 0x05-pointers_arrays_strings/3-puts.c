@@ -3,17 +3,20 @@
 /**
  * _puts - print a string
  *
- * @str: input string
+ * @str: pointer to the string
  *
- * Return: no return
+ * Return: void
  */
 
 void _puts(char *str)
-
 {
-	while (str != '\0'; str++)
+
+	int i = 0;
+
+	while (str[i])
 	{
-		putchar(*str);
+		_putchar(str[i]);
+		i++;
 	}
 	_putchar('\n');
 }
