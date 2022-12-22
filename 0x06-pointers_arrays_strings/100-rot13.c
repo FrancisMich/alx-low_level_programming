@@ -30,7 +30,7 @@ char *rot13(char *str)
 		{
 			if (str[i] == alphabet[j])
 			{
-				str[i] == rot13key[j];
+				str[i] = rot13key[j];
 				break;
 			}
 		}
