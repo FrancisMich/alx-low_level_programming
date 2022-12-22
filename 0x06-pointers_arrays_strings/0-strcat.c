@@ -6,7 +6,7 @@
  * @dest: copy to
  * @src: copy from
  *
- * Return: pointwer to dest
+ * Return: point to dest
  */
 
 char *_strcat(char *dest, char *src)
