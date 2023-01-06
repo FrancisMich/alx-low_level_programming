@@ -6,7 +6,6 @@ int is_prime_number(int n);
 /**
  * is_divisible - Checks if a number is divisible.
  * @num: The number to be checked.
- * int is_prime_number(int n);
  * @div: The divisor.
  * Return: If the number is divisible - 0.
  * If the number is not divisible - 1.
