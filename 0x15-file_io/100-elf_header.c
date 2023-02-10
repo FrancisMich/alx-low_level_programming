@@ -47,7 +47,6 @@ void check_elf(unsigned char *e_ident)
  */
 
 void print_magic(unsigned char *e_ident)
-
 {
 	int index;
 
@@ -139,6 +138,7 @@ void print_version(unsigned char *e_ident)
 void print_osabi(unsigned char *e_ident)
 {
 	printf(" OS/ABI: ");
+
 	switch (e_ident[EI_OSABI])
 	{
 		case ELFOSABI_NONE:
@@ -259,8 +259,8 @@ void close_elf(int elf)
 }
 
 /**
- * main - Displays the information contained in the
- * ELF header at the start of an ELF file.
+ *main - Displays the information contained in the
+ * ELF header at the start of an ELF file
  * @argc: The number of arguments supplied to the program.
  * @argv: An array of pointers to the arguments.
  * Return: 0 on success.
@@ -294,6 +294,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 		dprintf(STDERR_FILENO, "Error: `%s`: No such file\n", argv[1]);
 		exit(98);
 	}
+	
 	check_elf(header->e_ident);
 	printf("ELF Header:\n");
 	print_magic(header->e_ident);
